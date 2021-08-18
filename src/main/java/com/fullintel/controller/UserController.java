@@ -31,7 +31,7 @@ public class UserController {
     @PutMapping(value = "/api/v1")
     public ResponseEntity<?> putInfo(@RequestBody User user)
     {
-        System.out.println("Hi");
+        System.out.println("Hi ");
         userDao.updateUser(user.getId(), user.getFirstName(), user.getLastName());
         return ResponseEntity.ok(userDao);
 
