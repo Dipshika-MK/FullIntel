@@ -8,7 +8,7 @@ public class DataSource {
     private static final String DRIVER = "com.mysql.cj.jdbc.Driver";
     private static final String URL = "jdbc:mysql://localhost:3306/fullintel";
     private static final String USER_NAME = "root";
-    private static final String PASSWORD = "mount21ucl";
+    private static final String PASSWORD = "Dipshika@15root";
 
     private static DataSource dataSourceObj;
 
